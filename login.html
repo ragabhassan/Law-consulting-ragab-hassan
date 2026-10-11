@@ -79,7 +79,6 @@
             element.classList.add('hidden');
         }
 
-        // فحص الجلسة عند فتح الصفحة
        // فحص الجلسة عند فتح الصفحة
 async function checkSession() {
     const { data: { session } } = await supabase.auth.getSession();
